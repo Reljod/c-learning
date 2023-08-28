@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    printf("Start a program\n\n");
+    int score = 83;
+    float gpa = 1.75;
+    char grade = 'A';
 
-    int age;
-
-    printf("Tell me your age: ");
-    scanf("%d", &age);
-    printf("You entered %d", age);
-
-    getchar();
+    printf("A student scores %d in an exam.\nAn okay score for someone with gpa of %f and grade %c\n", score, gpa, grade);
 
     return 0;
 }
