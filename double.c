@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-double get_circumference(float radius, double pi) {
-    return pi * radius * radius;
-}
+double get_circumference(float, double);
 
 int main() {
     const double PI = 3.1415926536;
@@ -19,4 +17,8 @@ int main() {
     );
 
     return 0;
+}
+
+double get_circumference(float radius, double pi) {
+    return pi * radius * radius;
 }
